@@ -1,5 +1,8 @@
 # PATH 
 
+# GO
+export GOPATH=$HOME/src/golang
+
 # Git Prompt Options
 GIT_PS1_SHOWDIRTYSTATE=1
 GIT_PS1_SHOWUNTRACKEDFILES=1
