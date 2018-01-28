@@ -45,7 +45,6 @@ export LS_OPTIONS="--color=auto"
 alias open='xdg-open'
 alias tree='tree -C'
 alias reload_bash='source .bashrc'
-alias ls='ls -aln'
 
 # The Fun Stuff
 eval $(thefuck --alias)
