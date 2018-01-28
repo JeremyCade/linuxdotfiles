@@ -1,4 +1,4 @@
-# PATH 
+# PATH
 
 # GO
 export GOPATH=$HOME/src/golang
@@ -19,7 +19,7 @@ BLUE="\[\033[0;34m\]"
 LIGHT_BLUE="\[\033[1;34m\]"
 GREEN="\[\033[0;32m\]"
 LIGHT_GREEN="\[\033[1;32m\]"
-CYAN="\[\033[0;36m\]" 
+CYAN="\[\033[0;36m\]"
 LIGHT_CYAN="\[\033[1;36m\]"
 RED="\[\033[0;31m\]"
 LIGHT_RED="\[\033[1;31m\]"
@@ -45,4 +45,7 @@ export LS_OPTIONS="--color=auto"
 alias open='xdg-open'
 alias tree='tree -C'
 alias reload_bash='source .bashrc'
+alias ls='ls -aln'
 
+# The Fun Stuff
+eval $(thefuck --alias)
