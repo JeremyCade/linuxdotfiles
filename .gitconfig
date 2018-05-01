@@ -1,10 +1,10 @@
 [user]
 	name = Jeremy Cade
-	email = me@jeremycade.com
+	email = j.cade@valdperformance.com
 [color]
 	ui = true
 [core]
-	excludesfile = /home/jeremycade/.gitignore_global
+	excludesfile = /home/jeremy/.gitignore_global
 	editor = vim
 [filter "media"]
 	clean = git-media-clean %f
