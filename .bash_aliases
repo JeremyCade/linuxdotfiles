@@ -1,4 +1,5 @@
 # PATH
+export PATH=~/.local/bin:$PATH
 
 # GO
 export GOPATH=$HOME/src/golang
