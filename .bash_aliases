@@ -50,9 +50,6 @@ alias reload_bash='source .bashrc'
 # The Fun Stuff
 eval $(thefuck --alias)
 
-# Google Service Account
-export GOOGLE_APPLICATION_CREDENTIALS=$HOME/.google/service_account.json
-
 # Secrets
 if [ -f ~/.bash_secrets ]; then
     . ~/.bash_secrets
