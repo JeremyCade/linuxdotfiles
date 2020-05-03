@@ -1,5 +1,5 @@
 # PATH
-export PATH=~/.local/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
 # GO
 export GOPATH=$HOME/src/golang
@@ -54,3 +54,7 @@ eval $(thefuck --alias)
 if [ -f ~/.bash_secrets ]; then
     . ~/.bash_secrets
 fi
+
+# Dotnet Hackery
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH=$PATH:$HOME/.dotnet
