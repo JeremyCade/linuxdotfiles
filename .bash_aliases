@@ -55,5 +55,3 @@ if [ -f ~/.bash_secrets ]; then
     . ~/.bash_secrets
 fi
 
-# Rider
-alias rider="$HOME/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/201.8538.1/bin/rider.sh"
