@@ -36,7 +36,7 @@ WHITE="\[\033[1;37m\]"
 # PS1+='$(__git_ps1 "( %s)")\$
 # export PS1'
 
-PROMPT_COMMAND+='__git_ps1 "${VIRTUAL_ENV:+[$YELLOW`basename $VIRTUAL_ENV`$OFF]}$LIGHT_CYAN\u$OFF@$LIGHT_PURPLE\h$OFF:$LIGHT_GREEN\W$OFF" "\\\$ "'
+PROMPT_COMMAND+='__git_ps1 "${VIRTUAL_ENV:+[$YELLOW`basename $VIRTUAL_ENV`$OFF]}$LIGHT_CYAN\u$OFF@$LIGHT_PURPLE\h$OFF:$LIGHT_GREEN\w$OFF" "\\\$ "'
 
 # Bash Colors
 export CLICOLOR=1
