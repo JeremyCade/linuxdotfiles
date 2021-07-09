@@ -62,17 +62,5 @@ DerivedData
 *.ipa
 *.xcuserstate
 
-# MiPAL Moving Parts #
-######################
-build.*
-*.acsl
-*.tcsl
-*.xcuserdatad
-*.xcworkspace
-.gutexttowbd_msgtype_history
-.gutexttowbd_msgcont_history
-.gusimplewhiteboardposter_*
-*.hi
-nao/dcm_motion_files/ghc_generator
 
 
